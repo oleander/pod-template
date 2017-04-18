@@ -43,7 +43,7 @@ module Pod
       Pod::ProjectManipulator.new({
         :configurator => @configurator,
         :xcodeproj_path => "templates/swift/Example/PROJECT.xcodeproj",
-        :platform => :ios,
+        :platform => :mac,
         :remove_demo_project => (keep_demo == :no),
         :prefix => ""
       }).run
